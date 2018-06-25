@@ -1,8 +1,10 @@
 # Introduction to artstor-log-service
 
-This service can log any UI events from the front end so they can be tracked via Captains log
+This service can log any UI events from the front end so they can be tracked via Ithaka's Captains log
 
-    POST /api/v1/log  Logs the provided message in the Captains log
+Requirements:
+Requires Ithaka's sequoia libraries for logging and platform infrastructure.
+However,it can be forked to use similar back-end.
 
 Log message needs to be a json of syntax
 {
