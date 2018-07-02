@@ -5,8 +5,14 @@ pom.xml
 pom.xml.asc
 *.jar
 *.class
+*.DS_Store
 /.lein-*
 /.nrepl-port
 .hgignore
 .hg/
-.DS_Store
+profiles.clj
+.idea
+*.iml
+/*.iml
+/log
+.secret

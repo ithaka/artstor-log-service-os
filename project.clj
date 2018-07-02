@@ -1,8 +1,8 @@
 (defproject artstor-log-service "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "MIT License"
+            :url "https://opensource.org/licenses/MIT"}
   :repositories [["central-proxy" "http://repository.sonatype.org/content/repositories/central/"]]
   :dependencies [[org.clojure/clojure "_"]
                  [clj-app-container "_"]
